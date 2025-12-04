@@ -4,6 +4,7 @@
   background: rgba(30, 41, 59, 0.3);
   position: relative;
   overflow: hidden;
+  width: 100%;
   backdrop-filter: blur(10px);
 }
 

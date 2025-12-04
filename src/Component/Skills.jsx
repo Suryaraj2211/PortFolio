@@ -2,67 +2,102 @@
 import React from 'react';
 
 export default function Skills() {
-  const skillList = ['JavaScript', 'React', 'WebGPU', 'WebGL', 'HTML', 'CSS', 'Node.js', 'Git'];
-
   return (
     <section className="section" id="skills">
-  <div className="container">
-    <div className="section-header">
-      <h2 className="section-title">Skills & Technologies</h2>
-      <p className="section-subtitle">My journey and current expertise</p>
-      <div className="section-divider"></div>
-    </div>
+      <div className="container">
+        <div className="section-header">
+          <h2 className="section-title">Skills & Technologies</h2>
+          <p className="section-subtitle">My technical expertise and tools</p>
+          <div className="section-divider"></div>
+        </div>
 
-    <div className="skills-grid">
+        <div className="skills-grid">
 
-      <div className="skill-category">
-        <h3>Core Programming & Engine Development</h3>
-        <div className="skill-tags">
-          <span className="skill-tag">JavaScript</span>
-          <span className="skill-tag">C++</span>
-          <span className="skill-tag">WebGL</span>
-          <span className="skill-tag">WebGPU</span>
-          <span className="skill-tag">Vulkan</span>
-          <span className="skill-tag">ImGui</span>
-          <span className="skill-tag">3D Engine Development</span>
+          <div className="skill-category">
+            <h3>Programming Languages</h3>
+            <div className="skill-tags">
+              <span className="skill-tag">JavaScript (ES6+)</span>
+              <span className="skill-tag">Java (Core Java)</span>
+              <span className="skill-tag">SQL (MySQL)</span>
+            </div>
+          </div>
+
+          <div className="skill-category">
+            <h3>Frontend Technologies</h3>
+            <div className="skill-tags">
+              <span className="skill-tag">HTML5</span>
+              <span className="skill-tag">CSS3</span>
+              <span className="skill-tag">Tailwind CSS</span>
+              <span className="skill-tag">Bootstrap</span>
+              <span className="skill-tag">React.js</span>
+              <span className="skill-tag">React Hooks</span>
+              <span className="skill-tag">React Router</span>
+              <span className="skill-tag">DOM Manipulation</span>
+            </div>
+          </div>
+
+          <div className="skill-category">
+            <h3>Backend & Server</h3>
+            <div className="skill-tags">
+              <span className="skill-tag">Node.js</span>
+              <span className="skill-tag">Express.js</span>
+              <span className="skill-tag">RESTful API</span>
+              <span className="skill-tag">JWT Authentication</span>
+              <span className="skill-tag">CRUD Operations</span>
+            </div>
+          </div>
+
+          <div className="skill-category">
+            <h3>Java Backend</h3>
+            <div className="skill-tags">
+              <span className="skill-tag">Spring Boot</span>
+              <span className="skill-tag">Spring Data JPA</span>
+              <span className="skill-tag">REST API with Spring</span>
+              <span className="skill-tag">MySQL Integration</span>
+              <span className="skill-tag">MVC Architecture</span>
+            </div>
+          </div>
+
+          <div className="skill-category">
+            <h3>Databases</h3>
+            <div className="skill-tags">
+              <span className="skill-tag">MongoDB Atlas</span>
+              <span className="skill-tag">MySQL</span>
+            </div>
+          </div>
+
+          <div className="skill-category">
+            <h3>WebGL / 3D / Graphics</h3>
+            <div className="skill-tags">
+              <span className="skill-tag">HTML5 Canvas</span>
+              <span className="skill-tag">WebGL</span>
+              <span className="skill-tag">WebGPU</span>
+              <span className="skill-tag">Shader Basics</span>
+            </div>
+          </div>
+
+          <div className="skill-category">
+            <h3>Version Control & Dev Tools</h3>
+            <div className="skill-tags">
+              <span className="skill-tag">Git</span>
+              <span className="skill-tag">GitHub</span>
+              <span className="skill-tag">Postman</span>
+              <span className="skill-tag">VS Code</span>
+              <span className="skill-tag">JDK</span>
+            </div>
+          </div>
+
+          <div className="skill-category">
+            <h3>Deployment & Cloud</h3>
+            <div className="skill-tags">
+              <span className="skill-tag">Vercel</span>
+              <span className="skill-tag">Netlify</span>
+              <span className="skill-tag">MongoDB Atlas</span>
+            </div>
+          </div>
+
         </div>
       </div>
-
-      <div className="skill-category">
-        <h3>Frontend & UI Design</h3>
-        <div className="skill-tags">
-          <span className="skill-tag">React</span>
-          <span className="skill-tag">Tailwind CSS</span>
-          <span className="skill-tag">HTML5</span>
-          <span className="skill-tag">CSS3</span>
-          <span className="skill-tag">Canvas</span>
-          <span className="skill-tag">Figma (Basic)</span>
-          <span className="skill-tag">Canva (Editing)</span>
-        </div>
-      </div>
-
-      <div className="skill-category">
-        <h3>Backend & Databases</h3>
-        <div className="skill-tags">
-          <span className="skill-tag">Java (JDBC, Servlets)</span>
-          <span className="skill-tag">MySQL</span>
-        </div>
-      </div>
-
-      <div className="skill-category">
-        <h3>Tools & Research</h3>
-        <div className="skill-tags">
-          <span className="skill-tag">Blender (3D Modeling Research)</span>
-          <span className="skill-tag">Three.js (Research & Prototyping)</span>
-          <span className="skill-tag">Git</span>
-          <span className="skill-tag">VS Code</span>
-          <span className="skill-tag">PlayCanvas</span>
-          <span className="skill-tag">Kool Engine</span>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
+    </section>
   );
 }

@@ -10,7 +10,7 @@ export default function Hero({ scrollToContact }) {
           <img src={profileImage} alt="Profile" className="hero-image" />
           <h1 className="hero-title fade-in">WELCOME</h1>
           <p className="hero-subtitle fade-in">I am SURYA P M</p>
-          <h2 className="hero-role fade-in">Software Developer</h2>
+          <h2 className="hero-role fade-in">Full Stack Web Developer & WebGL/WebGPU Specialist</h2>
           <p className="hero-description fade-in">
             Passionate about creating innovative digital solutions with modern technologies
           </p>
@@ -18,7 +18,7 @@ export default function Hero({ scrollToContact }) {
             <button className="btn-primary" onClick={scrollToContact}>
               <span>Hire Me</span>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
             </button>
             <a href="/surya p m.pdf" download className="btn-secondary flex items-center gap-2">

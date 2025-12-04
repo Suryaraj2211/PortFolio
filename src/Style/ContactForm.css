@@ -112,7 +112,7 @@
   justify-content: center;
   gap: clamp(0.5rem, 1vw, 0.75rem);
   padding: clamp(0.75rem, 1.5vw, 1rem) clamp(1.5rem, 3vw, 2.5rem);
-  background: var(--gradient-primary);
+  background: ES7+ React Snippets, Prettier, Live Server, GitLensvar(--gradient-primary);
   color: white;
   border: none;
   border-radius: 50px;
@@ -163,6 +163,10 @@
 }
 
 @keyframes rotate {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
