@@ -1,8 +1,8 @@
 /* === Skills Section === */
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
-  gap: 5rem;
+  grid-template-columns: repeat(auto-fit, minmax(1268px, 1fr));
+  gap: 100rem;
   padding: 1rem;
 }
 
@@ -10,14 +10,18 @@
   background: rgba(30, 27, 47, 0.8);
   border: 1px solid rgba(71, 85, 105, 0.3);
   border-radius: 16px;
-  padding: clamp(1.5rem, 3vw, 2rem);
+  padding: 2rem 1.5rem;
   text-align: center;
   backdrop-filter: blur(20px);
   box-shadow: var(--shadow);
-  transition: all 0.3s ease;
-  width: 100%;
+  transition: all 1s ease;
+  width: 120%;
   min-width: 0;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .skill-category:hover {
