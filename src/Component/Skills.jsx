@@ -67,7 +67,7 @@ export default function Skills() {
           </div>
 
           <div className="skill-category">
-            <h3>WebGL / 3D / Graphics</h3>
+            <h3>WebGL / WebGPU /3D / Graphics</h3>
             <div className="skill-tags">
               <span className="skill-tag">HTML5 Canvas</span>
               <span className="skill-tag">WebGL</span>
