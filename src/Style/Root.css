@@ -2,15 +2,15 @@
 
 /* === CSS Variables === */
 :root {
-  /* Primary Colors - Pink & Cyan (Brighter) */
-  --primary-color: #22d3ee;
-  --primary-dark: #06b6d4;
-  --secondary-color: #f472b6;
-  --accent-color: #a78bfa;
+  /* Primary Colors - Bright Pink & Cyan */
+  --primary-color: #00fff7;
+  --primary-dark: #00d4ff;
+  --secondary-color: #ff6bff;
+  --accent-color: #b388ff;
 
-  /* Gradient - Hot Pink to Cyan (High Contrast) */
-  --gradient-primary: linear-gradient(135deg, #ff6b9d 0%, #e879f9 25%, #c084fc 50%, #38bdf8 75%, #22d3ee 100%);
-  --gradient-secondary: linear-gradient(135deg, #f472b6 0%, #a78bfa 50%, #38bdf8 100%);
+  /* Gradient - SUPER BRIGHT for visibility */
+  --gradient-primary: linear-gradient(135deg, #ff69b4 0%, #ff6bff 20%, #b388ff 40%, #69d9ff 60%, #00fff7 80%, #00ffcc 100%);
+  --gradient-secondary: linear-gradient(135deg, #ff6bff 0%, #b388ff 50%, #00fff7 100%);
 
   /* Accent Tones */
   --accent-1: #f472b6;
