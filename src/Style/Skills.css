@@ -1,8 +1,8 @@
 /* === Skills Section === */
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(1268px, 1fr));
-  gap: 100rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
   padding: 1rem;
 }
 
@@ -14,8 +14,8 @@
   text-align: center;
   backdrop-filter: blur(20px);
   box-shadow: var(--shadow);
-  transition: all 1s ease;
-  width: 120%;
+  transition: all 0.3s ease;
+  width: 100%;
   min-width: 0;
   overflow: hidden;
   display: flex;

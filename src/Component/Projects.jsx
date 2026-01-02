@@ -3,55 +3,68 @@ import React from 'react';
 
 export default function Projects() {
 
-
   return (
     <section className="section" id="projects">
       <div className="container">
         <div className="section-header">
           <h2 className="section-title">Featured Projects</h2>
-          <p className="section-subtitle">Some of my recent work and explorations</p>
+          <p className="section-subtitle">Graphics and engine development work</p>
           <div className="section-divider"></div>
         </div>
         <div className="projects-grid">
           <div className="project-card">
             <div className="project-image">
-              <div className="project-placeholder">🌐</div>
+              <div className="project-placeholder">🎮</div>
             </div>
             <div className="project-content">
-              <h3>Portfolio Website</h3>
-              <p>Fully developed using React and TailwindCSS, this site showcases my projects, skills, and experience.</p>
-              <div className="project-tech">
-                <span>React</span>
-                <span>TailwindCSS</span>
-                <span>WebGPU (Research)</span>
-              </div>
-            </div>
-          </div>
-          <div className="project-card">
-            <div className="project-image">
-              <div className="project-placeholder">💻</div>
-            </div>
-            <div className="project-content">
-              <h3>3D AI Engine</h3>
-              <p>Currently in research phase - experimenting with WebGPU and AI integration for real-time rendering.</p>
+              <h3>WebGPU Rendering Engine</h3>
+              <p>Real-time rendering engine built with WebGPU featuring buffer management, render passes, draw submission, and GPU pipeline configuration.</p>
               <div className="project-tech">
                 <span>WebGPU</span>
-                <span>JavaScript</span>
-                <span>AI Integration</span>
+                <span>TypeScript</span>
+                <span>Shaders</span>
               </div>
             </div>
           </div>
           <div className="project-card">
             <div className="project-image">
-              <div className="project-placeholder">⚙️</div>
+              <div className="project-placeholder">📦</div>
             </div>
             <div className="project-content">
-              <h3>UI Components Library</h3>
-              <p>Currently in research phase - building a reusable UI component library using React and TailwindCSS for rapid development.</p>
+              <h3>glTF Asset Loader</h3>
+              <p>Complete glTF 2.0 asset loader supporting buffers, accessors, node hierarchies, and PBR material integration for real-time engines.</p>
               <div className="project-tech">
-                <span>React</span>
-                <span>TailwindCSS</span>
-                <span>Storybook</span>
+                <span>glTF 2.0</span>
+                <span>JavaScript</span>
+                <span>PBR Textures</span>
+              </div>
+            </div>
+          </div>
+          <div className="project-card">
+            <div className="project-image">
+              <div className="project-placeholder">💡</div>
+            </div>
+            <div className="project-content">
+              <h3>PBR Lighting System</h3>
+              <p>Implemented Phong and Blinn-Phong lighting models with gamma correction, normal mapping, and real-time shadow support.</p>
+              <div className="project-tech">
+                <span>WebGL2</span>
+                <span>GLSL Shaders</span>
+                <span>Lighting</span>
+              </div>
+            </div>
+          </div>
+          <div className="project-card">
+            <div className="project-image">
+              <div className="project-placeholder">🔧</div>
+            </div>
+            <div className="project-content">
+              <h3>Scene Graph System</h3>
+              <p>Hierarchical scene management with transform inheritance, parent-child relationships, and efficient traversal for real-time rendering.</p>
+              <div className="project-tech">
+                <span>JavaScript</span>
+                <span>TypeScript</span>
+                <span>Engine Systems</span>
               </div>
             </div>
           </div>

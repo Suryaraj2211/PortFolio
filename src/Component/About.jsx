@@ -12,19 +12,19 @@ export default function About() {
         </div>
         <div className="about-content">
           <div className="about-text">
-            <p>I'm a passionate Software Developer who thrives on working with diverse technologies. From web development to emerging tech, I enjoy building efficient, scalable, and impactful solutions that solve real-world problems and push the boundaries of innovation.</p>
+            <p>Junior graphics and game engine developer with hands-on experience working on real-time rendering systems using WebGPU and WebGL. Strong understanding of engine architecture, asset pipelines, and GPU-driven rendering workflows. Experienced in debugging rendering issues related to geometry, buffers, and textures, with a focus on clean and performance-aware engine design.</p>
             <div className="stats-grid">
               <div className="stat-item">
                 <span className="stat-number">2+</span>
                 <span className="stat-label">Years Experience</span>
               </div>
               <div className="stat-item">
-                <span className="stat-number">3+</span>
-                <span className="stat-label">Projects Worked</span>
+                <span className="stat-number">WebGPU</span>
+                <span className="stat-label">Primary API</span>
               </div>
               <div className="stat-item">
-                <span className="stat-number">10+</span>
-                <span className="stat-label">Technologies</span>
+                <span className="stat-number">glTF</span>
+                <span className="stat-label">Asset Format</span>
               </div>
             </div>
           </div>

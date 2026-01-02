@@ -2,49 +2,49 @@
 
 /* === CSS Variables === */
 :root {
-  /* Primary Gradient Core */
-  --primary-color: #40c9ff;
-  --primary-dark: #2ab9ff;
-  --secondary-color: #e81cff;
-  --accent-color: #b16bff;
+  /* Primary Colors - Pink & Blue */
+  --primary-color: #3b82f6;
+  --primary-dark: #2563eb;
+  --secondary-color: #ec4899;
+  --accent-color: #8b5cf6;
 
-  /* Gradient */
-  --gradient-primary: linear-gradient(135deg, #40c9ff 0%, #e81cff 100%);
-  --gradient-secondary: linear-gradient(135deg, #2df2ff 0%, #ff6ee7 100%);
+  /* Gradient - Enhanced Pink to Purple to Blue */
+  --gradient-primary: linear-gradient(135deg, #f472b6 0%, #c026d3 25%, #8b5cf6 50%, #6366f1 75%, #3b82f6 100%);
+  --gradient-secondary: linear-gradient(135deg, #ec4899 0%, #a855f7 50%, #3b82f6 100%);
 
   /* Accent Tones */
-  --accent-1: #b16bff;
-  --accent-2: #ff6ee7;
-  --accent-3: #2df2ff;
-  --accent-4: #913eff;
+  --accent-1: #f472b6;
+  --accent-2: #a78bfa;
+  --accent-3: #60a5fa;
+  --accent-4: #c084fc;
 
   /* Cool Tones */
-  --cool-1: #38bdf8;
-  --cool-2: #0ea5e9;
-  --cool-3: #0284c7;
-  --cool-4: #0369a1;
+  --cool-1: #bfdbfe;
+  --cool-2: #93c5fd;
+  --cool-3: #60a5fa;
+  --cool-4: #3b82f6;
 
   /* Warm Tones */
-  --warm-1: #f472b6;
-  --warm-2: #ec4899;
-  --warm-3: #d946ef;
-  --warm-4: #a21caf;
+  --warm-1: #fbcfe8;
+  --warm-2: #f9a8d4;
+  --warm-3: #f472b6;
+  --warm-4: #ec4899;
 
-  /* Text Colors */
-  --text-primary: #a0e9ff;   /* Soft sky-aqua, super readable and gentle */
-  --text-secondary: #89caff; /* Mild ice blue, nice for subtitles */
-  --text-muted: #7da6c7;     /* Muted cool steel blue, great for placeholders */
+  /* Text Colors - Clean & Bright */
+  --text-primary: #fdf4ff;
+  --text-secondary: #f5d0fe;
+  --text-muted: #d8b4fe;
 
-  /* Backgrounds */
-  --bg-primary: #0f172a;
-  --bg-secondary: #1e293b;
-  --bg-tertiary: #334155;
-  --surface: #1e1b2f;
-  --border: #475569;
+  /* Backgrounds - Deep Dark */
+  --bg-primary: #0a0515;
+  --bg-secondary: #130a1f;
+  --bg-tertiary: #1e0f2e;
+  --surface: #100818;
+  --border: #581c87;
 
-  /* Shadows */
-  --shadow: 0 clamp(4px, 1.5vw, 10px) clamp(12px, 4vw, 25px) rgba(64, 201, 255, 0.2);
-  --shadow-lg: 0 clamp(8px, 3vw, 20px) clamp(20px, 6vw, 40px) rgba(232, 28, 255, 0.25);
+  /* Shadows - Pink Blue Glow */
+  --shadow: 0 clamp(4px, 1.5vw, 10px) clamp(12px, 4vw, 25px) rgba(236, 72, 153, 0.2);
+  --shadow-lg: 0 clamp(8px, 3vw, 20px) clamp(20px, 6vw, 40px) rgba(59, 130, 246, 0.25);
 
   /* Responsive spacing system */
   --space-xs: clamp(0.25rem, 1vw, 0.5rem);
@@ -72,7 +72,7 @@
   --radius-full: 50%;
 }
 
-/* === Global Styles === */ 
+/* === Global Styles === */
 * {
   margin: 0;
   padding: 0;
@@ -120,8 +120,8 @@ body::after {
   width: 100%;
   height: 100%;
   background-image:
-    linear-gradient(rgba(64, 201, 255, clamp(0.02, 0.04, 0.06)) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(64, 201, 255, clamp(0.02, 0.04, 0.06)) 1px, transparent 1px);
+    linear-gradient(rgba(236, 72, 153, clamp(0.02, 0.04, 0.06)) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(59, 130, 246, clamp(0.02, 0.04, 0.06)) 1px, transparent 1px);
   background-size: clamp(40px, 12vw, 80px) clamp(40px, 12vw, 80px);
   z-index: -9;
   pointer-events: none;
@@ -168,6 +168,7 @@ body::after {
   opacity: clamp(0.03, 0.06, 0.09);
   animation-delay: -5s;
 }
+
 .bg-orb-4 {
   width: clamp(100px, 30vw, 200px);
   height: clamp(100px, 30vw, 200px);
@@ -189,19 +190,25 @@ body::after {
 }
 
 @keyframes float-bg {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: translateY(0px) translateX(0px) scale(1);
   }
+
   25% {
     transform: translateY(clamp(-15px, -4vw, -30px)) translateX(clamp(10px, 3vw, 20px)) scale(clamp(0.95, 1, 1.05));
   }
+
   50% {
     transform: translateY(0px) translateX(clamp(-10px, -3vw, -20px)) scale(clamp(1.02, 1.05, 1.08));
   }
+
   75% {
     transform: translateY(clamp(10px, 3vw, 20px)) translateX(clamp(5px, 2vw, 10px)) scale(clamp(0.98, 1, 1.02));
   }
 }
+
 /* === App Wrapper === */
 .app-wrapper {
   min-height: 100vh;
@@ -212,11 +219,14 @@ body::after {
   z-index: 1;
   padding: 0 clamp(0.5rem, 2vw, 1rem);
 }
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
   body::after {
     background-size: clamp(60px, 14vw, 120px) clamp(60px, 14vw, 120px);
   }
 }
+
 /* Mobile-specific optimizations */
 @media (max-width: 768px) {
   :root {
@@ -242,6 +252,7 @@ body::after {
     padding: 0 clamp(0.75rem, 3vw, 1.25rem);
   }
 }
+
 @media (min-width: 769px) and (max-width: 1024px) {
   :root {
     --shadow: 0 clamp(6px, 2vw, 8px) clamp(15px, 5vw, 20px) rgba(64, 201, 255, 0.2);
@@ -256,11 +267,13 @@ body::after {
     filter: blur(clamp(50px, 10vw, 60px));
   }
 }
+
 @media (min-width: 1025px) {
   .app-wrapper {
     padding: 0 clamp(1rem, 2vw, 1.5rem);
   }
 }
+
 /* Ultra-wide screen optimizations */
 @media (min-width: 1600px) {
   :root {
@@ -291,6 +304,7 @@ body::after {
     height: 350px;
   }
 }
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
@@ -302,11 +316,14 @@ body::after {
   }
 
   @keyframes float-bg {
-    0%, 100% {
+
+    0%,
+    100% {
       transform: translateY(0px) translateX(0px) scale(1);
     }
   }
 }
+
 /* High contrast mode support */
 @media (prefers-contrast: high) {
   :root {
@@ -351,6 +368,7 @@ body::after {
 
 /* Print styles */
 @media print {
+
   .bg-orb,
   body::before,
   body::after {
