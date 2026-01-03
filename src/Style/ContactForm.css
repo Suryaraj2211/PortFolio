@@ -83,8 +83,8 @@
   font-weight: 500;
 }
 
-.form-input:focus ~ .form-label,
-.form-input:not(:placeholder-shown) ~ .form-label {
+.form-input:focus~.form-label,
+.form-input:not(:placeholder-shown)~.form-label {
   top: -0.5rem;
   font-size: clamp(0.75rem, 0.9vw, 0.85rem);
   color: var(--primary-color);
@@ -101,7 +101,7 @@
   transition: width 0.3s ease;
 }
 
-.form-input:focus ~ .form-underline {
+.form-input:focus~.form-underline {
   width: 100%;
 }
 
@@ -112,7 +112,7 @@
   justify-content: center;
   gap: clamp(0.5rem, 1vw, 0.75rem);
   padding: clamp(0.75rem, 1.5vw, 1rem) clamp(1.5rem, 3vw, 2.5rem);
-  background: ES7+ React Snippets, Prettier, Live Server, GitLensvar(--gradient-primary);
+  background: var(--gradient-primary);
   color: white;
   border: none;
   border-radius: 50px;
@@ -166,6 +166,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
