@@ -290,7 +290,7 @@ Things I'm considering adding:
 I'm Surya P M, a Full Stack Web Developer and WebGL/WebGPU Specialist currently working at Hexr Factory. I've been developing professionally for over 2 years, focusing on web development, 3D graphics, and performance optimization.
 
 **Contact:**
-- Email: suryapm2211@gmail.com
+- Email: suryaponraj22@gmail.com
 - GitHub: [@Suryaraj2211](https://github.com/Suryaraj2211)
 
 ---
