@@ -2,7 +2,7 @@
 
 A personal portfolio website showcasing my work as a Full Stack Developer and WebGL/WebGPU Specialist. Built with React, Vite, and TailwindCSS.
 
-**Live Demo:** [View Portfolio](https://suryaraj2211.github.io/PortFolio/) | **Resume:** [Download PDF](./public/SURYA_P_M_RESUME.pdf)
+**Live Demo:** [View Portfolio](https://suryapm-port-folio.vercel.app/) | **Resume:** [Download PDF](./public/SURYA_P_M_RESUME.pdf)
 
 ---
 
