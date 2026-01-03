@@ -2,7 +2,7 @@
 
 A personal portfolio website showcasing my work as a Full Stack Developer and WebGL/WebGPU Specialist. Built with React, Vite, and TailwindCSS.
 
-**Live Demo:** [View Portfolio](#) | **Resume:** [Download PDF](./public/surya%20p%20m.pdf)
+**Live Demo:** [View Portfolio](https://suryaraj2211.github.io/PortFolio/) | **Resume:** [Download PDF](./public/SURYA_P_M_RESUME.pdf)
 
 ---
 
@@ -52,7 +52,7 @@ The site includes my professional background, technical skills, work timeline, f
 my-portfolio/
 │
 ├── public/
-│   ├── surya p m.pdf
+│   ├── SURYA_P_M_RESUME.pdf
 │   └── vite.svg
 │
 ├── src/
@@ -290,7 +290,7 @@ Things I'm considering adding:
 I'm Surya P M, a Full Stack Web Developer and WebGL/WebGPU Specialist currently working at Hexr Factory. I've been developing professionally for over 2 years, focusing on web development, 3D graphics, and performance optimization.
 
 **Contact:**
-- Email: [Use the contact form](#contact)
+- Email: suryapm2211@gmail.com
 - GitHub: [@Suryaraj2211](https://github.com/Suryaraj2211)
 
 ---
