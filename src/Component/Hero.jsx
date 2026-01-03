@@ -21,7 +21,7 @@ export default function Hero({ scrollToContact }) {
                 <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
             </button>
-            <a href="/Surya_P_M_RESUME.pdf" download="Surya_P_M.pdf" type="application/pdf" target="_blank" rel="noopener noreferrer" className="btn-secondary flex items-center gap-2">
+            <a href="/SURYA_P_M_RESUME.pdf" download="SURYA_P_M_RESUME.pdf" type="application/pdf" target="_blank" rel="noopener noreferrer" className="btn-secondary flex items-center gap-2">
               <span>Download Resume</span>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
                 <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"
